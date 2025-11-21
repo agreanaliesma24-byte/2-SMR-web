@@ -40,6 +40,20 @@ p.bola {
     border-image-source: url(../img/bola-100.png);
 }
 
+p.pastilla {
+    padding: 20px ;
+    border: 25px solid transparent;
+    border-image-source: url(../img/hormigas.png);
+    border-image-slice: 25;  
+    
+
+
+}
+
+
+
+
+p.
 border-imege-slice
 
 border-image-repeat
