@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 'header header header header header header'
+                           'nav_izq   main   main mian mian aisde'
+                           'nav_izq footer footer footer footer footer';
+    gap: 1rem;
+}
+
+.cabecera{ 
+    grid-area: header;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.barra_lateral_derecha{
+    grid-area: 
+    ;
+}
