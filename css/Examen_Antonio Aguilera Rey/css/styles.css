@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Configuración global del documento */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +14,7 @@ body {
     line-height: 1.6;
 }
 
+/* Estos son los estilos para la cabecera  */
 
 header {
     background-color: #000;
@@ -27,6 +29,8 @@ header {
     color: #fff;
     font-size: 1.8rem;
 }
+
+/* Estos son para el menu de navegacion*/
 
 
 .menu {
@@ -49,6 +53,7 @@ header {
     color: #00ff88;
 }
 
+/* Estos estilos son los para la seccion principal*/
 
 .seccion-principal {
     background-color: #252525;
@@ -75,63 +80,14 @@ header {
     font-size: 1.1rem;
 }
 
-.formulario-login {
-    background-color: rgba(0, 0, 0, 0.8);
-    border: 2px solid #00ff88;
-    border-radius: 10px;
-    padding: 25px;
-    width: 300px;
-}
 
-.formulario-login h3 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #fff;
-}
 
-.grupo-formulario {
-    margin-bottom: 15px;
-}
-
-.grupo-formulario label {
-    display: block;
-    margin-bottom: 5px;
-    color: #f0f0f0;
-}
-
-.grupo-formulario input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #444;
-    border-radius: 5px;
-    background-color: #333;
-    color: #fff;
-}
-
-.grupo-formulario input:focus {
-    outline: none;
-    border-color: #00ff88;
-}
-
-.boton-entrar {
-    width: 100%;
-    padding: 12px;
-    background-color: #00ff88;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.boton-entrar:hover {
-    background-color: #00cc66;
-}
+/* estos estilos son para la seccion de productos*/
 
 .seccion-productos {
     padding: 40px 20px;
 }
+
 
 .seccion-productos h2 {
     text-align: center;
@@ -141,6 +97,8 @@ header {
     font-size: 1.8rem;
 }
 
+/* Este contenedor es el de tarjetas de productos*/
+
 .contenedor-tarjetas {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -148,6 +106,7 @@ header {
     max-width: 1000px;
     margin: 0 auto;
 }
+/*Estos son cada uno de los estilos de cada producto*/
 
 .tarjeta {
     background-color: #333;
@@ -198,6 +157,8 @@ header {
     background-color: #fff;
 }
 
+/*estos estilos estan dirigidos al footer*/
+
 footer {
     background-color: #000;
     height: 80px;
@@ -212,6 +173,8 @@ footer {
 footer p {
     margin-bottom: 10px;
 }
+
+/*Estos estan dirigoidos el enlace que hace que vuelva a arriba*/
 
 .volver-arriba {
     color: #00ff88;
