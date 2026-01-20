@@ -36,4 +36,18 @@ body{
 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+@media (max-width: 768px) {
+    .grid_container{
+        grid-template-columns: repeat(2, 1fr);
+        background-color: blueviolet;
+    }
 
+}
+
+@media (max-width: 425px) {
+    .grid_container{
+        grid-template-columns: repeat(1, 1fr);
+        background-color: beige;
+    }
+
+}

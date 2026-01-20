@@ -1,0 +1,90 @@
+/* Estilos generales para visibilidad */
+{
+box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.flex-item, .grid-item {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #2980b9;
+    font-weight: bold;
+    flex: 2;
+}
+
+/* --- EJERCICIO 1: FLEXBOX --- */
+.flex-container {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px; 
+    margin-bottom: 40px;
+}
+
+
+/* --- EJERCICIO 2: GRID --- */
+.grid-container {
+    gap: 10px;
+    display: grid;
+    grid-template-areas:
+    'header'
+    'sidebar'
+    'content'
+    'footer'
+    ;
+     .header {grid-area: 1 /span 6;}
+     .sidebar {grid-area: 2 /span 1;}
+     .content {grid-area: 2 /span 5;}
+     .footer {grid-area: 3 /span 6;}
+
+}
+
+
+
+.header {
+
+   
+    min-height: 200px;
+}
+
+.footer{
+
+    grid-area: footer;
+    background-color: #c0392b;
+}
+
+.tarjeta {
+
+    display: flex;
+    border-style: solid;
+    border-color: blue;
+    width: 30%;
+
+
+
+}
+
+
+.contenido {
+
+justify-content: flex-end; 
+
+}
+
+.tarjetas{
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+}
+
+.img {
+    width: 15px;
+    height: auto;
+}
