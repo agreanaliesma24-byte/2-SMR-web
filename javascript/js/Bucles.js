@@ -1,12 +1,19 @@
 //Bucle
+
+
+
+function multiplicar (numero)
+{
+    let j=0;
+    while(j<=10){
+        console.log(j + "X" + numero + "=" + j*numero);
+            j++;
+    }
+
+}
 let i;
-for (i=0;i<=10;i++){
-     console.log(i);
+for(i=0;i<=10;i++){
+    multiplicar(i)
 }
 
-i=0;
-while (i<=10)
-{
-    console.log(i);
-    i=i+2;
-}
+
