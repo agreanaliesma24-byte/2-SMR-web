@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tarjeta-hardware {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilos de la imagen y efectos visuales requeridos */
+#imagen-interactiva {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    /* Asegura que la imagen no se deforme */
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Efecto visual complementario en CSS */
+#imagen-interactiva:hover {
+    transform: scale(1.02);
+    border-color: #28a745;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #333;
+}
